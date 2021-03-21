@@ -2,8 +2,6 @@
 
 Web polyfills.
 
-## 
-
 ## Installation
 
 We recommend to use [yarn](https://classic.yarnpkg.com/en/docs/install/) for dependency management:
