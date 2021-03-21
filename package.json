@@ -1,0 +1,35 @@
+{
+  "name": "@mntm/polyfill",
+  "version": "1.1.0",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "jsnext:main": "lib/index.js",
+  "sideEffects": [
+    "./lib/*.js"
+  ],
+  "author": {
+    "name": "Anton Petrov",
+    "email": "im@petrov.engineer",
+    "url": "https://petrov.engineer"
+  },
+  "description": "Web polyfills",
+  "license": "MIT",
+  "keywords": [
+    "polyfill",
+    "blob",
+    "raf",
+    "context"
+  ],
+  "homepage": "https://github.com/maxi-team/polyfill",
+  "bugs": "https://github.com/maxi-team/polyfill/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxi-team/polyfill.git"
+  },
+  "dependencies": {
+    "blueimp-canvas-to-blob": "^3.28.0",
+    "raf": "^3.4.1",
+    "ssr-window": "^3.0.0",
+    "unfetch": "^4.2.0"
+  }
+}
